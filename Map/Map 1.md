@@ -122,5 +122,6 @@ for (Map.Entry<String, Integer> entry : entries) {
 	- Entry는 Map 내부에 있는 인터페이스임.
 
 ![Image](https://github.com/user-attachments/assets/4b42591b-0b77-4ab1-a2a3-f207fff2e874)
+
 그림을 보면 키-값 쌍으로 묶여있는 Entry를 확인할 수 있다.
  
