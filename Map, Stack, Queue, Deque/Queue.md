@@ -8,6 +8,7 @@
 정리하면 (넣기)1 -> 2 -> 3  (빼기)1 -> 2 -> 3 넣는 순서와 빼는 순서가 같다. 처음 넣은 1번 블록이 가장 먼저 나온다. 이렇게 가장 먼저 들어가서 가장 먼저 나오는 것을 **선입 선출(FIFO, First In First Out)** 라고 한다. 또 이러한 자료 구조를 큐(Queue)라고 한다.
 
 **컬렉션 프레임워크 - Queue**
+
 ![Image](https://github.com/user-attachments/assets/7c64c618-0bbe-4954-9c2a-ba5bd679dc96)
 - Queue는 List나 Set과 같이 Collection의 자식이다.
 - 구현체는 ArrayDeque, LinkedList가 있다.
