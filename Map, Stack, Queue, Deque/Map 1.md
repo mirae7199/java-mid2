@@ -13,7 +13,7 @@
 - Key-Value 값의 쌍을 저장하는 자료구조이다.
 - 순서를 유지하지 않는다.
 
-![[Pasted image 20250202114851.png]]
+![Image](https://github.com/user-attachments/assets/4298cfc0-55d6-4531-b269-7ba7ab785c3b)
 - Map은 Collection을 상속하지 않는다.
 - Map의 구현체는 HashMap, LinkedHashMap, TreeMap이 있다.
 
@@ -121,6 +121,7 @@ for (Map.Entry<String, Integer> entry : entries) {
 	- 하나의 Map에는 여러 Entry가 존재할 수 있음.
 	- Entry는 Map 내부에 있는 인터페이스임.
 
-![[Pasted image 20250202123942.png]]
+![Image](https://github.com/user-attachments/assets/729acd25-ba92-43ec-aa26-b15f9f2cf05b)
+
 그림을 보면 키-값 쌍으로 묶여있는 Entry를 확인할 수 있다.
  
