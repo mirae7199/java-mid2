@@ -15,7 +15,7 @@ public class MapMain2 {
         studentMap.put("studentA", 100);  
         System.out.println(studentMap);  
 
-		// studentA key가 있는지 확인
+	// studentA key가 있는지 확인
         boolean containsKey = studentMap.containsKey("studentA");  
         System.out.println("containsKey = " + containsKey);  
   
