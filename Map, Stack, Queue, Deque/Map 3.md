@@ -116,8 +116,7 @@ HashSet과 HashMap은 작동 원리가 같다.
 - Key를 사용해서 해시 코드를 생성한다.
 - Key-Value를 쌍으로 저장하기 위해서 Entry 객체를 사용한다.
 
-![Image](https://github.com/user-attachments/assets/aff88469-e8de-4c3c-a7a7-d5efb2436012)
-
+![[Pasted image 20250202141251.png]]
 해시를 사용해서 키와 값을 저장하는 자료구조를 해시 테이블이라고 한다.
 
 직접 만든 객체일 경우에 hashCode, equals를 반드시 구현해야 정확한 값이 저장/검색/삭제될 것이다.
