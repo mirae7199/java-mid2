@@ -53,8 +53,8 @@ public class MapMain3 {
         }        
         System.out.println(studentMap);  
   
-		// 학생이 없는 경우에만 추가 2     
-		studentMap.putIfAbsent("studentA", 100);  
+	// 학생이 없는 경우에만 추가 2     
+	studentMap.putIfAbsent("studentA", 100);  
         studentMap.putIfAbsent("studnetB", 100);  
         System.out.println(studentMap);  
   
