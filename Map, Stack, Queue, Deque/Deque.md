@@ -1,7 +1,7 @@
 ## Deque 자료 구조
 Deque는 양쪽 끝에서 값을 삽입하거나 뺄수 있다. Deque는 일반적인 Stack과 Queue의 기능을 모두 포함하고 있어 매우 유연한 자료 구조이다. Deque에 대해 알아보자.
 
-![[Pasted image 20250203131256.png]]
+![Image](https://github.com/user-attachments/assets/bf50bb93-daa1-4436-881c-c3e73e909f50)
 - Queue를 배우고 왔다면 이 그림이 무슨 뜻인지 단번에 알 것이다.
 	- 양쪽에서 값을 삽입: offerFirst(), offerLast()
 	- 양쪽에서 값을 빼기: pollFirst(), pollLast()
@@ -59,12 +59,12 @@ deque.pollLast() = 3
 위에서 Deque는 Stack, Queue의 기능을 모두 포함한다고 말했는데 Stack을 사용할 때, Queue를 사용할 때의 메서드가 나눠져 있다. Deque가 제공하는 stack과 Queue 메서드에 대해 알아보자.
 
 **Deque - Stack**
-![[Pasted image 20250203133612.png]]
+![Image](https://github.com/user-attachments/assets/901a5603-b249-4ee8-9e61-a5990489c95e)
 - push(): 값을 앞에서 삽입한다.
 - pop(): 값을 앞에서 꺼낸다.
 
 **Deque - Queue**
-![[Pasted image 20250203133722.png]]
+![Image](https://github.com/user-attachments/assets/40315310-a260-4428-b95a-5d3a19565e11)
 - offer(): 값을 뒤에서 삽입한다.
 - poll(): 값을 앞에서 꺼낸다.
 
